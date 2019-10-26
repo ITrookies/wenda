@@ -27,7 +27,7 @@ public class IndexController {
     @ResponseBody
     public String index(HttpSession httpSession){
 
-        logger.info("VISIT HOME");
+        logger.info("VISIT HOME123");
         return "Hello World " + httpSession.getAttribute("msg")+wendaService.getMessage(2);
 
     }
